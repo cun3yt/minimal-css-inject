@@ -24,3 +24,7 @@ Minimal CSS Injection Per Site
 1. Click Save & Inject. The site should change immediately.
 
 1. Refresh the page. The styles will persist.
+
+## Disclaimer
+
+This code is provided ‘as is’ without warranties of any kind, express or implied. Use at your own risk. The authors and contributors shall not be liable for any damages, losses, or issues arising from the use, modification, or distribution of this code.
