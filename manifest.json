@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Minimal CSS Override",
+  "version": "1.0",
+  "description": "Persistently override CSS per site.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Edit Site CSS"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
